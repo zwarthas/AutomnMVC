@@ -3,7 +3,7 @@ package com.zw.service.impl;
 import com.zw.annotation.Service;
 import com.zw.service.UserService;
 
-@Service("userServiceImpl")
+@Service("UserServiceImpl")
 public class UserServiceImpl implements UserService{
 
 	public String query(String name, String age) {

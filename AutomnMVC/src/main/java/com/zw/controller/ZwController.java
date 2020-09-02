@@ -16,7 +16,7 @@ import com.zw.service.UserService;
 @RequestMapping("/zw")
 public class ZwController {
 	
-	@Qualifier("userServiceImpl")
+	@Qualifier("UserServiceImpl")
 	private UserService userService;
 	
 	@RequestMapping("/query")
